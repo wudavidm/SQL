@@ -53,3 +53,15 @@ UPDATE actor
 SET first_name = 'Harpo'
 WHERE first_name = 'Groucho';
 
+#4d
+SELECT * FROM actor
+WHERE first_name = 'Harpo' and last_name = 'Williams';
+
+UPDATE actor
+SET first_name = 'Groucho'
+WHERE actor_id = 172
+
+#5a
+
+
+
